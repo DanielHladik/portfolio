@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Daniel Hladík</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Začínající programátor. Mám zájem stát se vývojářem, možná v oblasti her.</p>
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>Technické:</strong> HTML, CSS, JavaScript, Python (základy)</li>
+                <li><strong>Nástroje:</strong> Git, VS Code, PyCharm</li>
+                <li><strong>Soft skills:</strong> týmová práce</li>
+            </ul>
+            <h3>Interests</h3>
+            <p>Hraní her, spánek</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Game of Life Screenshot">
+                <h3>Game of Life</h3>
+                <p>Implementace hry Game of Life od Johna Conwaye.</p>
+                <p><strong>Technologie:</strong> JavaScript, HTML, CSS</p>
+                <a href="https://danielhladik.github.io/gol-v1/" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Technologie Screenshot">
+                <h3>Závěrečná práce: Technologie, která mění hraní her</h3>
+                <p>Prezentace o herních technologiích.</p>
+                <p><strong>Technologie:</strong> HTML, CSS, JavaScript</p>
+                <a href="https://danielhladik.github.io/pva-2024-2025-projekt1/" target="_blank">View Project</a>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Jméno:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Zpráva:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Odeslat</button>
+            </form>
+            <p>Email: kontakt@email.com</p>
+            <a href="https://github.com/DanielHladik" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>

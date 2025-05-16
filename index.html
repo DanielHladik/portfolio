@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="landing">
+        <canvas id="amoled-bg"></canvas>
+        <div class="landing-content">
+            <h1>Daniel Hladík</h1>
+            <button id="enter-btn" aria-label="Enter Portfolio">Zobrazit portfolio</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('enter-btn').addEventListener('click', () => {
+            window.location.href = 'portfolio.html';
+        });
+    </script>
+</body>
+</html>
